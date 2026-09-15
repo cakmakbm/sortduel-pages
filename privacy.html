@@ -19,11 +19,12 @@
   </head>
   <body>
     <h1>Sort Duel — Privacy Policy</h1>
-    <p class="updated">Last updated 12 September 2026</p>
+    <p class="updated">Last updated 15 September 2026</p>
 
     <p>
-      Sort Duel does not ask for an account, an email address, or a real name, and it has no
-      advertising and no analytics. This page describes everything the app stores or sends.
+      Sort Duel does not ask for an account, an email address, or a real name. There is no
+      advertising, no third-party analytics, and nothing that follows you across other apps
+      or websites. This page describes everything the app stores or sends.
     </p>
 
     <h2>What stays on your device</h2>
@@ -32,29 +33,51 @@
       <li>Your sound, haptics and button-side preferences.</li>
       <li>The last three error messages, if the app has failed, so a problem can be described.</li>
       <li>
-        A random player identifier, kept in the device keychain so it survives reinstalling.
-        It is a random number and is not derived from you or your device.
+        A random player identifier, kept in the device keychain so that it survives
+        reinstalling. It is a random number and is not derived from you or your device.
       </li>
     </ul>
-    <p>None of this leaves the device unless you play a mode that needs another person.</p>
 
     <h2>What is sent, and when</h2>
     <p>
-      Playing online, or putting a score on a leaderboard, sends the following to our server:
-      the random player identifier, the nickname you chose, your score, and a record of the
-      round — the belt's seed and the times of your button presses. The round record is what
-      lets the server check a score is real and lets other players race a saved run.
+      Finishing any round of eight objects or more — <strong>including a practice round
+      against the computer</strong> — sends a record of it to our server: the random player
+      identifier, the nickname you chose, your score, the belt's seed and the times of your
+      button presses. The seed and the presses are what let the server work the score out for
+      itself rather than taking the app's word for it, and they are what somebody else races
+      when a quick match finds nobody and hands them a saved run instead.
+    </p>
+    <p>
+      Playing online sends the same record, along with the progress readout your opponent
+      watches during the round.
     </p>
     <p>
       A nickname is optional and is shown to other players. Please do not put anything
       private in it.
     </p>
 
-    <h2>Where it is kept</h2>
+    <h2>Your rating</h2>
     <p>
-      On Amazon Web Services in Frankfurt, Germany. Leaderboard entries and saved runs are
-      deleted automatically after a short period. No data is sold, and none is shared with
-      anyone except AWS, which hosts it on our behalf.
+      Quick matches move a rating kept against your identifier. Your nickname, that rating
+      and your position on the ladder are shown to every other player on the rankings screen.
+      Duels arranged between friends by invite code do not count towards it.
+    </p>
+
+    <h2>Counting players</h2>
+    <p>
+      Once a night our server counts how many people posted a score that day and how many of
+      them had posted one before, and keeps those totals. It reads leaderboard rows that
+      already exist, collects nothing extra, and the totals it keeps carry no identifier —
+      they are counts, not a record of anybody. They exist to answer one question: whether
+      enough people are playing for the game to be worth continuing.
+    </p>
+
+    <h2>Where it is kept, and for how long</h2>
+    <p>
+      On Amazon Web Services in Frankfurt, Germany. Daily leaderboard entries are deleted
+      automatically after ten days and saved runs after thirty; a friend board lasts six
+      months, and a rating and the nightly totals a little over a year. No data is sold, and
+      none is shared with anyone except AWS, which hosts it on our behalf.
     </p>
 
     <h2>Children</h2>
@@ -64,9 +87,10 @@
 
     <h2>Removing your data</h2>
     <p>
-      Deleting the app removes everything stored on your device, including the identifier —
-      after which nothing on the server can be connected to you. To have leaderboard entries
-      removed sooner, write to the address below and include the identifier shown on the
+      Deleting the app removes what is stored on your device, but <strong>not</strong> the
+      random identifier: that is held in the device keychain, which iOS keeps, so reinstalling
+      picks up the same one. To have everything held against it removed — leaderboard entries,
+      saved runs and your rating — write to the address below with the identifier shown on the
       app's Settings screen.
     </p>
 
